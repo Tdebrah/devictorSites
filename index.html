@@ -1,12 +1,369 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>dear ones</title>
+    <title>SKY HI TECHNOLOGY</title>
+    <!-- link for bootstrap css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- link for my own css -->
+    <link rel="stylesheet" href="sky hi.css">
+    <!-- link for font awesome icons -->
+    <link rel="stylesheet" href="fonts/font-awesome.min.css">
+    <!-- link for w3schools -->
+    <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+
+    <style>
+        .Experience {
+            -webkit-animation-name: example;
+            /* Chrome, Safari, Opera */
+            -webkit-animation-duration: 4s;
+            /* Chrome, Safari, Opera */
+            animation-name: example;
+            animation-duration: 4s;
+            position: relative;
+        }
+        
+        @-webkit-keyframes example {
+            0% {
+                color: red;
+                top: 0px;
+                left: 0px;
+            }
+            25% {
+                color: yellow;
+                top: 50px;
+                left: 0px;
+            }
+            50% {
+                color: blue;
+                top: 50px;
+                left: 800px;
+            }
+            /* 75% {
+                color: green;
+                left: 0px;
+                bottom: 200px;
+            }
+            100% {
+                color: red;
+                left: 0px;
+                bottom: 0px;
+            } */
+        }
+        
+        @keyframes example {
+            0% {
+                color: red;
+                top: 0px;
+                left: 0px;
+            }
+            25% {
+                color: yellow;
+                top: 50px;
+                left: 0px;
+            }
+            50% {
+                color: blue;
+                top: 50px;
+                left: 800px;
+            }
+            /* 75% {
+                color: green;
+                left: 0px;
+                bottom: 200px;
+            }
+            100% {
+                color: red;
+                left: 0px;
+                bottom: 0px;
+            
+            } */
+        }
+        
+        #two {
+            font-style: italic;
+            font-size: 60px;
+            animation-duration: 1s;
+            /* animation-iteration-count: infinite; */
+            /* margin-top: 3px; */
+        }
+    </style>
+
 </head>
+<script src="../../ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+<script src="jquery.min.js"></script>
+<script src="sky hi.js"></script>
+<script>
+    $(document).ready(function() {
+
+        $("#passionate").show();
+        $("#dependable").hide();
+        $("#The_Best_Services").hide();
+        $("#Always_improving").hide();
+
+        $("#p").click(function() {
+            $("#passionate").show();
+            $("#dependable").hide();
+            $("#The_Best_Services").hide();
+            $("#Always_improving").hide();
+        });
+        $("#d").click(function() {
+            $("#passionate").hide();
+            $("#dependable").show();
+            $("#The_Best_Services").hide();
+            $("#Always_improving").hide();
+        });
+        $("#T").click(function() {
+            $("#passionate").hide();
+            $("#dependable").hide();
+            $("#The_Best_Services").show();
+            $("#Always_improving").hide();
+        });
+        $("#A").click(function() {
+            $("#passionate").hide();
+            $("#dependable").hide();
+            $("#The_Best_Services").hide();
+            $("#Always_improving").show();
+        });
+
+    });
+</script>
+
 <body>
-    <h1>MY FRIENDS</h1>
+    <!-- link for bootstrap javascript -->
+    <!-- <script src="js/bootstrap.min.js"></script> -->
+    <!-- link for my own javascript -->
+
+    <div class="container">
+        <nav class="navbar nav-default">
+            <div class="container-fluid">
+                <a href="#"> <img src="skyhilogo.png" alt="skyhilogo"></a>
+                <ul class="nav navbar-inline">
+                    <li class="list-item">
+                        <a href="#" data-toggle="tooltip" title="Who we are"> ABOUT</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> SERVICES</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> WORK</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="sky hi team.html"> TEAM</a>
+                    </li>
+                    <li class="list-item">
+                        <a href="#"> LET'S TALK</a>
+                    </li>
+
+                </ul>
+                <span> <i class="fa fa-phone">+256 773244798</i><p> Call Us today</p></span>
+            </div>
+        </nav>
+        <div class="jumbotron">
+
+            <div id="marqueeOne">
+                <div class="Experience w3-animate-fading" id="one">Experience the</div>
+                <div class="w3-animate-right" id="two"> <span>NEW</span> GENERATION</div>
+                <div class=" w3-animate-fading " id="three">of smart thinking and design</div>
+            </div>
+
+            <div id="marqueeTwo" class="w3-animate-zoom">
+                <div class="w3-animate-top " id="one">Easily get</div>
+                <div class="w3-animate-right " id="two"> <span>YOUR</span> BUSINESS</div>
+                <div class="w3-animate-fading " id="three">with our work processes</div>
+            </div>
+        </div>
+        <div class="containerDiv">
+            <div class="div1">
+                <span id="span1"> WE OFFER DIFFERENT SERVICES</span>
+                <div id="bar"></div>
+                <p>Our commitment to client satisfaction strengthens and extends our relationships. <br> Come up with innovative ideas for growing your business. Our technologies will help rise your business to a next level.
+                </p>
+            </div>
+            <div class="div2">
+                <div class="div2links">
+                    <a href="#">
+                        <img src="compHardware.png" alt="compHardware">
+                        <p>Computer Hardware</p>
+                    </a>
+                    <a href="#">
+                        <img src="compHardware.png" alt="WebDevelopment">
+                        <p>Web Development</p>
+                    </a>
+                    <a href="#">
+                        <img src="compNetworks.png" alt="compNetworks">
+                        <p>Computer Networks</p>
+                    </a>
+                    <a href="#">
+                        <img src="compHardware.png" alt="ITSupport">
+                        <p>IT Support</p>
+                    </a>
+                </div>
+                <div class="div2pagers">
+                    <ul class="pagination">
+                        <li><a href="#">1</a></li>
+                        <li class="active"><a href="#">2</a></li>
+                        <li><a href="#">Prev</a></li>
+                        <li><a href="#">Next</a></li>
+
+                    </ul>
+                </div>
+            </div>
+            <div class="div3">
+                <div class="left">
+                    <hr>
+                    <h3>OUR WORK <span>></span></h3>
+                    <p> <strong> AFG Weekly Bible Study.</strong> <br> <strong><em>Psalms 65:1-2 What mighty praise, O God, belongs to you in Zion. We will fulfill our vows to you, for you answer our prayers . All of us must come to you.</em></strong> <br>                        1.How come at times we pray and don't get what we want? 2.Why does God take long to answer our prayers? <br> 3.What should be done to get the answers we want from God? <br> 4. Is it God who takes long to answer or it's us who take
+                        long to receive? <br> 5. What should one do when they take long without receiving the answer they need from God? <br> 6. How do you know that what you are praying for is in line with the will of God? #AgapeForGrowth.
+
+                    </p>
+                    <button>Tell Us About Your Project</button>
+                </div>
+                <div class="right">
+                    <div class="imagelinks">
+                        <a href="#"> <img src="client1.jpg" alt="our works"> </a>
+                        <a href="#"> <img src="client2.jpg" alt="our works"> </a>
+                        <a href="#"> <img src="client3.jpg" alt="our works"> </a>
+                        <a href="#"> <img src="client4.jpg" alt="our works"> </a>
+                    </div>
+                    <button>View More</button>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="div4">
+            <div class="left1">
+                <div class="process">
+                    <h3>THE PROCESS WE FOLLOW</h3>
+                </div>
+                <h2>User Test Period</h2>
+                <hr>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci aspernatur eligendi neque reprehenderit blanditiis. Distinctio, quo optio! Quia nostrum earum repellat iure voluptatem! Voluptate, vero! Quam officiis et aspernatur saepe?
+                </p>
+            </div>
+            <div class="right1">
+                <div class="whyWe">
+                    <h3>WHY CHOOSE US?</h3>
+                    <p>why we are the best.</p>
+                </div>
+                <div class="reasons">
+                    <div class="pointLeft">
+                        <ol>
+                            <li>
+                                <a href="#passionate" id="p"><img src="passionate.png" alt="pationate"></a>
+                            </li>
+                            <li>
+                                <a href="#dependable" id="d"><img src="dependable.png" alt="pationate"></a>
+                            </li>
+                            <li>
+                                <a href="#The Best Services" id="T"><img src="The Best Services.png" alt="pationate"></a>
+                            </li>
+                            <li>
+                                <a href="#Always improving" id="A"><img src="Always improving.png" alt="pationate"></a>
+                            </li>
+
+                        </ol>
+                    </div>
+                    <div class="descriptionRight">
+                        <p id="passionate">
+
+                            We are passionate about using information technology to make dramatic improvements in the industry. We use the latest technology to provide our customers with the best IT solutions. We know how to turn your organisation into a collabortive enviroment
+                            with our unique IT solution.
+
+                        </p>
+                        <p id="dependable">
+
+                            We are a dedicated team of IT professionals who believe that every business deserves to have a dependable IT support it can count on. With us on your side, you'll have a vital powerful and proactive silent partner protecting your business from pitfalls
+                            of preventable network disasters.
+
+                        </p>
+                        <p id="The_Best_Services">
+
+                            We help companies confidently address technology-related decisions and ensure their IT organisations and operating models are agile and effective equiping them to cut through the noise fleeting technology trends to create enduring results.
+
+                        </p>
+                        <p id="Always_improving">
+
+                            We are passionate about using information technology to make dramatic improvements in the industry. We use the latest technology to provide our customers with the best IT solutions. We know how to turn your organisation into a collabortive enviroment
+                            with our unique IT solution.
+
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="div5">
+            <h3>CLIENTS AND PARTNERS</h3>
+            <div class="div5B">
+                <marquee behavior="top" direction="top">
+                    <img src="skyhilogo.png" alt="skyhilogo">
+                    <img src="skyhilogo.png" alt="skyhilogo">
+                    <img src="skyhilogo.png" alt="skyhilogo">
+                    <img src="skyhilogo.png" alt="skyhilogo">
+                    <img src="skyhilogo.png" alt="skyhilogo">
+                    <img src="skyhilogo.png" alt="skyhilogo">
+                    <img src="skyhilogo.png" alt="skyhilogo">
+                    <img src="skyhilogo.png" alt="skyhilogo">
+                    <img src="skyhilogo.png" alt="skyhilogo">
+                    <img src="skyhilogo.png" alt="skyhilogo">
+                    <img src="skyhilogo.png" alt="skyhilogo">
+                </marquee>
+            </div>
+        </div>
+        <footer>
+            <div class="footerA">
+                <div class="footer1">
+                    <img src="skyhilogo.png" alt="skyhilogo">
+                    <p>
+
+                        Sky Hi Technology Projects Ltd <br>Plot 36 Williams Street<br> Equatorial Building<br> Kampala<br> Uganda
+
+                    </p>
+                </div>
+                <div class="footer2">
+                    <h5>CONTACT INFORMATION</h5>
+                    <p>
+
+                        Email: info@skyhitechug.com<br>Website:www.skyhitechug.com<br> Tel: +256 773244798<br> Mobile: +256 750084454
+
+                    </p>
+                </div>
+                <div class="footer3">
+                    <h5>OTHER SERVICES</h5>
+                    <p>
+
+                        Email Hosting<br>Website Hosting<br> Website Maintenence<br> User Interface Design<br>Data Recovery Services <br>Domain Name Registration
+
+                    </p>
+                </div>
+                <div class="footer4">
+                    <h5>OUR TECHNOLOGIES</h5>
+                    <p>
+
+                        <img src="cisco.png" alt="pationate">
+                        <img src="pasionate.png" alt="pationate">
+                        <img src="pasionate.png" alt="pationate">
+                        <img src="pasionate.png" alt="pationate">
+                    </p>
+                </div>
+            </div>
+            <hr>
+            <div class="footerB">
+                &copy;2014 Sky Hi Technology Products
+                <p> Using this site | Webmail </p>
+                <p> #WeAre Social
+                    <span><i class="fa fa-facebook"></i> </span>
+                    <span><i class="fa fa-twitter"></i> </span>
+                    <span><i class="fa fa-instagram"></i> </span></p>
+            </div>
+
+    </div>
+    </footer>
+    </div>
 </body>
+
 </html>
