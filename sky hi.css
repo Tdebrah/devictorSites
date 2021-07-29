@@ -1,0 +1,300 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        nav {
+            background-color: black;
+        }
+        
+        nav a {
+            text-decoration: none;
+            padding: 10px;
+            margin: 10px;
+            color: blanchedalmond;
+            font-size: 30px;
+        }
+        
+        nav a:hover {
+            color: blue;
+        }
+        
+        nav span {
+            color: bisque;
+        }
+        
+        .jumbotron {
+            background-color: rgb(164, 195, 196);
+            height: 50vh;
+            padding: 40px;
+        }
+        
+        #one {
+            font-style: italic;
+            font-size: 40px;
+            color: black;
+            animation-duration: 6s;
+            /* animation-iteration-count: infinite; */
+        }
+        
+        #two {
+            font-style: italic;
+            font-size: 60px;
+            animation-duration: 6s;
+            /* animation-iteration-count: infinite; */
+            /* margin-top: 3px; */
+        }
+        
+        #three {
+            font-style: italic;
+            font-size: 45px;
+            animation-duration: 6s;
+        }
+        
+        #two span {
+            color: rgb(43, 160, 238);
+        }
+        
+        #marqueeTwo {
+            display: none;
+        }
+        
+        .containerDiv {
+            background-color: rgb(11, 135, 184);
+            height: fit-content;
+        }
+        
+        .div1 {
+            display: flex;
+            color: white;
+            padding: 30px;
+            height: 110px;
+        }
+        
+        #span1 {
+            font-size: 30px;
+            /* width: 300px; */
+            padding-left: 50px;
+            padding-right: 5px;
+        }
+        
+        #bar {
+            height: 120px;
+            width: 15px;
+            border-radius: 4px;
+            background-color: white;
+        }
+        
+        .div1 p {
+            font-size: 20px;
+            padding-left: 5px;
+        }
+        
+        .div2links {
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            padding: 90px;
+        }
+        
+        .div2 a {
+            text-decoration: none;
+            color: white;
+            font-size: 15px;
+            width: 20%;
+        }
+        
+        .pagination {
+            justify-content: center;
+            padding-top: 2px;
+        }
+        
+        .pagination li {
+            background-color: aqua;
+            width: 45px;
+            height: 35px;
+            margin: 2px;
+            padding: 10px;
+        }
+        
+        .pagination li:hover {
+            background-color: navy;
+        }
+        
+        .div3 {
+            display: flex;
+        }
+        
+        .left {
+            color: white;
+            width: 40%;
+            padding: 15px;
+            font-size: 1.0rem;
+        }
+        
+        .left hr {
+            color: rgb(2, 6, 44);
+            height: 5px;
+            width: 35%;
+            margin: 15px;
+        }
+        
+        .left h3 {
+            color: black;
+            font-size: 2rem;
+        }
+        
+        .left h3 span {
+            font-size: 2.5rem;
+        }
+        
+        .left button {
+            outline: none;
+            border: none;
+            padding: 5px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            background-color: rgb(207, 199, 199);
+        }
+        
+        .right {
+            width: 40%;
+            padding: 15px;
+        }
+        
+        .imagelinks {
+            display: grid;
+            padding: 10px;
+            grid-template-columns: repeat(2, 300px);
+        }
+        
+        .imagelinks img {
+            height: 280px;
+            width: 100%;
+            padding: 10px;
+        }
+        
+        .right button {
+            outline: none;
+            border: none;
+            padding: 5px;
+            margin-left: 200px;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 1.5rem;
+            background-color: rgb(207, 199, 199);
+        }
+        
+        .div4 {
+            display: flex;
+        }
+        
+        .left1 {
+            background-color: burlywood;
+            color: white;
+            width: 40%;
+            padding: 15px;
+            font-size: 1.0rem;
+        }
+        
+        .left1 hr {
+            color: rgb(199, 166, 18);
+            height: 2px;
+            width: 100%;
+            margin: 15px;
+        }
+        
+        .right1 {
+            background-color: burlywood;
+            width: 60%;
+            padding: 15px;
+        }
+        
+        .reasons {
+            display: flex;
+            padding: 10px;
+            margin: 5px;
+            width: 100%;
+        }
+        
+        .pointleft li {
+            margin: 10px;
+        }
+        
+        ol {
+            list-style: none;
+            padding: 5px;
+            margin: 5px;
+        }
+        
+        #passionate,
+        #dependable,
+        #The_Best_Services,
+        #Always_improving {
+            /* display: none; */
+        }
+        
+        .div5 {
+            background-color: wheat;
+        }
+        
+        .div5B {
+            display: flex;
+        }
+        
+        footer {
+            background-color: rgb(25, 25, 59);
+            color: white;
+            padding: 10px;
+        }
+        
+        .footerA {
+            display: flex;
+            padding: 10px;
+            justify-content: space-between;
+        }
+        
+        .footerB {
+            display: flex;
+            padding: 10px;
+            justify-content: space-between;
+        }
+        
+        footer span {
+            color: rgb(25, 25, 59);
+            background-color: rgb(105, 218, 252);
+            margin: 2px;
+            border-radius: 20px;
+            padding: 10px;
+        }
+        
+        .teambody {
+            background-color: bisque;
+        }
+        
+        .TEAM {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px;
+        }
+        
+        .teamhead {
+            margin: 10px;
+        }
+        
+        .TEAM img {
+            height: 300px;
+            width: 250px;
+        }
+        
+        .team1 {
+            width: 25%;
+            padding: 5px;
+        }
+        
+        .serviceBTNS i {
+            width: 90px;
+            height: 20px;
+            /* padding: 25px; */
+            border-radius: 3px;
+        }
